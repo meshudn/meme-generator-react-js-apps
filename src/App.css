@@ -30,22 +30,27 @@ header > h3 {
 .meme{
     position: relative;
     text-align: center;
+    width: 100%;
 }
 .meme img{
     width: 80vw;
     margin-top: 10px;
+    background-position: center;
+    background-size: cover;
 }
 .meme .top-text{
     position: absolute;
     top:0;
     color: #fff;
     width: 100%;
+    text-shadow: 1px 1px 5px #000;
 }
 .meme .bottom-text{
     position: absolute;
     bottom:0;
     color: #fff;
     width: 100%;
+    text-shadow: 1px 1px 5px #000;
 }
 .generate-button{
     background: #000;
@@ -53,9 +58,24 @@ header > h3 {
     font-weight: bold;
 }
 input[type='text']{
-   background: #fff;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;  
+}
+input[type='select']{
+    padding: 18px 22px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #8842d5;  
 }
 
 footer{
     text-align: center;
+}
+.whiteColor{
+    color: #fff;
+}
+.blackColor{
+    color: #000;
 }
