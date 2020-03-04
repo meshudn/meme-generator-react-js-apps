@@ -20,7 +20,7 @@ class App extends React.Component {
    }
    this.handleChange = this.handleChange.bind(this);
    this.handleSubmit = this.handleSubmit.bind(this);
-   this.handleColor = this.handleColor.bind(this);
+   //this.handleColor = this.handleColor.bind(this);
    this.memesarray = [];
  }
 
@@ -64,13 +64,13 @@ class App extends React.Component {
       [name] : value
     });
   }
-  handleColor(event){
-    this.setState({
-       textColor: event.target.value
-    });
-    // const textdiv = document.getElementsByClassName('top-text');
-    // textdiv.classList.add('whiteColor');
-  }
+  // handleColor(event){
+  //   this.setState({
+  //      textColor: event.target.value
+  //   });
+  //   // const textdiv = document.getElementsByClassName('top-text');
+  //   // textdiv.classList.add('whiteColor');
+  // }
   render(){
     return (
       <div className="main-container">
@@ -106,7 +106,7 @@ class App extends React.Component {
                   {this.memesarray}
                </select>
                <button className="generate-button">Memes</button>
-               <label htmlFor="">Text color:</label>
+               {/* <label htmlFor="">Text color:</label>
                <select 
                   name="textColor" 
                   value={this.state.textColor}
@@ -114,7 +114,7 @@ class App extends React.Component {
                   >
                   <option value="black">Dark</option>
                   <option value="white">Light</option>
-               </select>
+               </select> */}
             </form>
           </div>
           <div className="meme">
