@@ -1,5 +1,5 @@
 # About
-A simple meme generator application. 
+A simple React js application. 
 
 ## Tools
 1. React.js 
