@@ -1,5 +1,5 @@
 # About
-A simple React js application. 
+A React js application. 
 
 ## Tools
 1. React.js 
